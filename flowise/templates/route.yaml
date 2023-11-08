@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: flowise-route
+  labels:
+    app: flowise
+spec:
+  to:
+    kind: Service
+    name: flowise
+  # port:
+  #   targetPort: http
+  # host: <desired-hostname> # Specify the hostname you want to use for your route
+  # tls: # Uncomment and configure if you want to secure your route
+  #   termination: edge
+  #   insecureEdgeTerminationPolicy: Redirect

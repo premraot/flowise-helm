@@ -15,10 +15,10 @@ service:
 
 env:
   PORT: "3000"
-  DATABASE_PATH: "/root/.flowise"
-  APIKEY_PATH: "/root/.flowise"
-  SECRETKEY_PATH: "/root/.flowise"
-  LOG_PATH: "/root/.flowise/logs"
+  #DATABASE_PATH: "/root/.flowise"
+  #APIKEY_PATH: "/root/.flowise"
+  #SECRETKEY_PATH: "/root/.flowise"
+  #LOG_PATH: "/root/.flowise/logs"
   # Uncomment and set the rest of the environment variables as needed
   # FLOWISE_USERNAME: "user"
   # FLOWISE_PASSWORD: "1234"

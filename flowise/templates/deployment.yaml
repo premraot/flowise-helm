@@ -26,8 +26,8 @@ spec:
             - name: PORT
               value: "{{ .Values.env.PORT }}"
             # Add all other environment variables here
-            {{- range $key, $value := .Values.env }}
-            - name: {{ $key }}
-              value: "{{ $value }}"
-              {{- end }}
+            # {{- range $key, $value := .Values.env }}
+            # - name: {{ $key }}
+            #  value: "{{ $value }}"
+            # {{- end }}
           # Define volume mounts if necessary

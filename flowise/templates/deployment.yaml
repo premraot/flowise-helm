@@ -19,7 +19,7 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag  }}"
-          command: ["/usr/local/bin/flowise", "start"]
+          command: ["/bin/sh", "-c", "{{ .Values.containerCommand }}"]
           ports:
             - containerPort: {{ .Values.service.port }}
           env:

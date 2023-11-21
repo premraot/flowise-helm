@@ -3,12 +3,12 @@ entries:
   flowise:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-08T15:44:48.883183376+05:30"
+    created: "2023-11-21T12:29:54.393797895+05:30"
     description: A Helm chart for Kubernetes
-    digest: b12e32eb05ec61f7c0ddfecc3b1bf9fe97cc95c087fb9afcdfa5d956725b791b
+    digest: 588b78b37fcc6124f02137456447a9371e4dc05f8792e357206458ede6e3da47
     name: flowise
     type: application
     urls:
     - https://raw.githubusercontent.com/premraot/flowise-helm/main/flowise.tgz
     version: 0.1.0
-generated: "2023-11-08T15:44:48.880313071+05:30"
+generated: "2023-11-21T12:29:54.393553657+05:30"

@@ -8,6 +8,8 @@ spec:
   to:
     kind: Service
     name: flowise
+  port:
+    targetPort: 3000
   # port:
   #   targetPort: http
   # host: <desired-hostname> # Specify the hostname you want to use for your route

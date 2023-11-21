@@ -5,16 +5,16 @@ kind: Deployment
 metadata:
   name: {{ include "flowise.fullname" . }}
   labels:
-    {{- include "flowise.labels" . | nindent 4 }}
+    app: flowise
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "flowise.selectorLabels" . | nindent 6 }}
+      app: flowise
   template:
     metadata:
       labels:
-        {{- include "flowise.selectorLabels" . | nindent 8 }}
+        app: flowise
     spec:
       containers:
         - name: {{ .Chart.Name }}
